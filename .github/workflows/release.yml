@@ -3,14 +3,13 @@ name: Release
 on:
   push:
     branches:
-      - staging
       - release/**
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  release:
-    name: Release
+  changesets:
+    name: Create Changesets PR
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
