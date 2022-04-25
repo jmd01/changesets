@@ -1,4 +1,4 @@
-name: Release
+name: Changesets
 
 on:
   push:
@@ -28,5 +28,7 @@ jobs:
 
       - name: Create Release Pull Request
         uses: changesets/action@v1
+        with:
+          title: Changesets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
