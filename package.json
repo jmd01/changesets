@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "@changesets/cli": "^2.22.0"
-  }
+  },
+  "name": "changesets",
+  "version": "0.0.1",
+  "description": "Test changesets",
+  "main": "index.js",
+  "repository": "git@github.com:jmd01/changesets.git",
+  "author": "John Davison <john01davison@gmail.com>",
+  "license": "MIT",
+  "private": false
 }
