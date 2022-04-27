@@ -11,6 +11,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@changesets/changelog-git": "^0.1.11"
+    "@changesets/changelog-git": "^0.1.11",
+    "@changesets/changelog-github": "^0.4.4"
   }
 }
