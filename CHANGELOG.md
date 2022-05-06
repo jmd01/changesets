@@ -1,5 +1,15 @@
 # changesets
 
+## 0.0.7
+
+### Patch Changes
+
+- 2b26601: Test13
+- b6ca61d: Test14
+- 79ffba5: test12
+- ee39eb2: test16
+- ad9d479: Test15
+
 ## 0.0.6
 
 ### Patch Changes
